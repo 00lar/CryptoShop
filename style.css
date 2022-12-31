@@ -1,3 +1,16 @@
+
+:root {
+    /*Colores*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #af8f7a;
+    --just-white: #fff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,4 +19,5 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
 }
