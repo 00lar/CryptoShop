@@ -236,7 +236,15 @@ main {
     margin: 0 auto;
     margin-top: 20px;
     padding: 8px;
-    font-size: 1.2rem;
     border-radius: 8px;
     background: var(--soft-orange);
 }
+
+.currency-table--date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: var(--warm-black);
+}
+
+/* tabla comisiones */
