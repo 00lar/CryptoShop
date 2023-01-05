@@ -9,6 +9,7 @@
     --grey: #bababa;
     --off-white: #faf8f7;
     --just-white: #fff;
+    --warm-black+1: #282623;
 }
 
 * {
@@ -247,3 +248,52 @@ main {
     color: var(--warm-black);
 }
 
+main .main-product {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.main-product .product--batata {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    /*centrar batata proximos 3: */
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    top: -10%;
+    background-image: url('./assets/icons/batata.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--just-white);
+}
+
+.product-detail--title p {
+    margin-bottom: 20px;
+    color: #808080;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+
+.main
