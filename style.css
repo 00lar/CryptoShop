@@ -439,6 +439,36 @@ main .main-product {
     background-color: var(--bitcoin-orange);
 }
 
+.plans-container--card .recommended-2 {
+    position: absolute;
+    left: 50% ;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--just-white);
+    border-radius: 8px;
+    background-color: var(--secondary-blue);
+}
+
+.plans-container--card .recommended-3 {
+    position: absolute;
+    left: 50% ;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--just-white);
+    border-radius: 8px;
+    background-color: purple;
+}
+
 .plan-card--title {
     padding-top: 30px;
     font-size: 1.4rem;
@@ -477,6 +507,8 @@ main .main-product {
     background-color: var(--off-white);
     border:2px solid var(--bitcoin-orange);
     border-radius: 4px;
+    cursor: pointer;
+    outline: none;
 }
 
 .plan-card--ca span {
